@@ -12,9 +12,21 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 h1{
     text-align: center;
     padding-bottom: 10px;
+}
+
+.btn{
+    padding: 100px 200px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
 }
